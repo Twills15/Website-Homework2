@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero{
+    height: 110vh;  
+    width: 100%;
+    background-image: url("C:\Users\tommy\OneDrive\Desktop\Bootcamp Tips\Class Help\HWavatar.png");
+    background-size: center;
+} 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 6%;
+}
