@@ -1,19 +1,61 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.hero{
-    height: 110vh;  
+
+.hero {
+    height: 110vh;
     width: 100%;
-    background-image: url("C:\Users\tommy\OneDrive\Desktop\Bootcamp Tips\Class Help\HWavatar.png");
+    background-image: a href=("https://www.google.com/imgres?imgurl=https%3A%2F%2Fc8.alamy.com%2Fcomp%2F2BMG990%2Flong-haired-man-head-avatar-beautiful-human-face-male-cartoon-character-portrait-vector-illustration-2BMG990.jpg&imgrefurl=https%3A%2F%2Fwww.alamy.com%2Flong-haired-man-head-avatar-beautiful-human-face-male-cartoon-character-portrait-vector-illustration-image356859020.html&tbnid=2ySezfhKJBOYsM&vet=12ahUKEwi4tuTMm4L4AhUWsXIEHRHKCygQMygIegUIARDgAQ..i&docid=aAyO0GFtY4PlMM&w=1300&h=1390&q=lomg%20hair%20guy%20avatar&ved=2ahUKEwi4tuTMm4L4AhUWsXIEHRHKCygQMygIegUIARDgAQ") 
     background-size: center;
-} 
-nav{
+}
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
     padding-left: 8%;
     padding-right: 6%;
+}
+
+.logo {
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: blue;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+nav ul li a:hover {
+    color: rgb(105, 22, 22);
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+    transition: 0.4s;
+
+}
+.btn{
+    background-color: aqua;
+    color:crimson;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: transform .4s
+    ;
 }
